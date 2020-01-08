@@ -1,13 +1,13 @@
 # Visual Studio Code & Remote Development
 
 ![enter image description here](https://user-images.githubusercontent.com/58260252/71954430-9b12c280-3228-11ea-8536-3cd6222060be.png)
-#####  <그림1. Remote Development> 
+
 
 Visual Studio Code의 Remote Development를 이용하면 __하나의 에디터로(visual studio code)로 여러가지 작업(컨테이너 관리, light sail, ubuntu 등)을 원격으로 관리__ 할 수가 있습니다. 여러 환경에 대한 설명과 함께 원격 환경을 조성하는 방법을 간단히 소개해 보겠습니다.
 
 ## Visual Studio Code
 ![enter image description here](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGF2Gql1WTNVkDolEwO7lTBH81oeROyyjobddqAUb3vwYhGOr4QQ&s)
-##### <그림2. vs code 로고> 
+ 
 
 
 
@@ -30,7 +30,7 @@ IDE가 아니므로, 빌더가 내장되어 있지 않아 VS Code에서 빌드�
 
 ![enter image description here](https://i.ytimg.com/vi/Cvrqmq9A3tA/maxresdefault.jpg)
 
-##### <그림3. WSL> 
+
 
 
 
@@ -42,7 +42,7 @@ WSL은 오직64bit 윈도우10에서만 가능한 것으로 윈도우 환경에�
 
 ![enter image description here](https://t1.daumcdn.net/cfile/tistory/997FCA345C5F377012)
 
-#####  <그림4. AmazonLightsail 로고>  
+
 
 
 __Amazon Lightsail__ 이란 작은 비용으로 시작 할 수 있는 작은 가상서버 서비스로 관리가 어렵고 비용이 많이드는 서버들을 작은 돈으로 작은 부분만 떼어서 빌려쓰는 개념입니다.
@@ -51,7 +51,7 @@ __Amazon Lightsail__ 이란 작은 비용으로 시작 할 수 있는 작은 가
 
  ## Docker
  ![enter image description here](https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/docker-logo.png)
-#####   <그림5. Docker 로고>  
+
 
 
 
@@ -61,7 +61,7 @@ __Amazon Lightsail__ 이란 작은 비용으로 시작 할 수 있는 작은 가
 또한 게스트 OS를 위한 라이브러리, 커널등을 전부 다운받아야하기 때문에 이미지 크기또한 커지게 됩니다. 반면에 Docker는  chroot, namesapce, cgroup을 이용해 __프로세스 단위 격리 환경__ 을 만들어 성능 손실을 줄이고, 컨테이너에 필요한 __커널을 호스트와 공유__ 하여 사용하기 때문에 __이미지 용량 또한 대폭 감소__ 된다는 장점이 있습니다. 
 
 ![enter image description here](https://cdn-images-1.medium.com/max/1000/1*wOBkzBpi1Hl9Nr__Jszplg.png)
-#####   <그림6. Docker 원리>  
+
 
 
 ### Docker Images & Container
@@ -72,7 +72,7 @@ _Images_: 컨테이너 생성및 실행 시 **읽기전용** 으로 사용됩니
 _Container_: 이미지에서 **변경된 사항만을 저장**하기때문에 컨테이너에서 무엇을 하든지 원본 이미지는 영향을 받지 않습니다. 또한 각 컨테이너는 **독립된 파일 시스템**을 제공받고 호스트와 분리되어 있기 때문에 컨테이너간 독립이 되어 있습니다.
 
 ![enter image description here](https://subicura.com/assets/article_images/2017-02-10-docker-guide-for-beginners-create-image-and-deploy/create-image.png)
-##### <그림7. Docker 이미지 방식> 
+
 
 ## 원격 제어 환경 조성
 
