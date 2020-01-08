@@ -89,14 +89,15 @@ _Container_: 이미지에서 **변경된 사항만을 저장**하기때문에 �
 2. 서버의 ip를 고정 시킨 후, 서버에 입장합니다.
 3. config 설정에 들어가 아래의 항목을 No에서 yes로 바꿔주면 비밀번호를 입력 시 원격제어권을 가져 올 수가 있습니다.
 
-![enter image description here](https://postfiles.pstatic.net/MjAyMDAxMDZfMjk4/MDAxNTc4MzExMjkzOTQy.fJoS1LivKNyrZDlGx8yF8TQt5oK5TYLD6vBxUYeqxZYg.btloGV-5v32gte7j_6x18UgrqaMaurKsvkpQzCpkJl8g.PNG.ehgus6028/Yes.png?type=w966)
+![image](https://user-images.githubusercontent.com/58260252/71954734-8daa0800-3229-11ea-9b49-9f8218de3072.png)
 
 4. VS Code에서 F1키를 눌러 검색창을 띄우고 Remote-SSH:Connect to Host...를선택합니다.
 5. Configure SSH Hosts를 선택합니다.
 6. 파일을 업데이트 할 경로를 선택합니다.
 7. 들어간 config 페이지에 아래의 그림과 같은 양식으로 입력해 줍니다.
 
-![enter image description here](https://postfiles.pstatic.net/MjAyMDAxMDZfMTkw/MDAxNTc4MzA1NjQ4MTc3.1YeMnQ8v46IVfzZHLOABp_AulbPFZXjVnZ8pJKHz54Ig.-rd_sUMTMgH4rMkqT-p4S3ung6beYsYJ0870H6Bgvt0g.PNG.ehgus6028/dada.png?type=w966)
+![image](https://user-images.githubusercontent.com/58260252/71954783-bf22d380-3229-11ea-985a-3d420b4cc7b0.png)
+
 
 8. 원격 관리 준비 끝!
 
