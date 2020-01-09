@@ -18,7 +18,7 @@ theme: jekyll-theme-so-simple
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "You will never know until you try"
-description: "-실패가 있어야 성공도 있다-"
+description: "Don't be afraid of failure"
 base: ""
 url: "https://jangdohyun.github.io"  
 logo: # path of site logo, e.g. "/images/logo.png"
