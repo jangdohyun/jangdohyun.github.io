@@ -59,7 +59,6 @@ __Amazon Lightsail__ 이란 작은 비용으로 시작 할 수 있는 작은 가
 ![enter image description here](https://cdn-images-1.medium.com/max/1000/1*wOBkzBpi1Hl9Nr__Jszplg.png)
 
 
-
 ### Docker Images & Container
 
 _Images_: 컨테이너 생성및 실행 시 **읽기전용** 으로 사용됩니다.
@@ -74,33 +73,31 @@ _Container_: 이미지에서 **변경된 사항만을 저장**하기때문에 �
 
 - WSL Targets
 
-1. Microsoft store에서 WSL 프로그램을 다운 받습니다. (본인은 ubuntu를 받았습니다)
-2. Ubuntu에 접속하여 "code ." 을 입력합니다.
-3. VS code와 ubuntu가 연결이 된 code창이 뜹니다.
-4. 원격 관리 준비 끝!
+ 1. Microsoft store에서 WSL 프로그램을 다운 받습니다. (본인은 ubuntu를 받았습니다)
+ 2. Ubuntu에 접속하여 "code ." 을 입력합니다.
+ 3. VS code와 ubuntu가 연결이 된 code창이 뜹니다.
+ 4. 원격 관리 준비 끝!
 
 - SSH Targets
 
-1. AWS의 Lightsail sever를 엽니다. 
-2. 서버의 ip를 고정 시킨 후, 서버에 입장합니다.
-3. config 설정에 들어가 아래의 항목을 No에서 yes로 바꿔주면 비밀번호를 입력 시 원격제어권을 가져 올 수가 있습니다.
+ 1. AWS의 Lightsail sever를 엽니다. 
+ 2. 서버의 ip를 고정 시킨 후, 서버에 입장합니다.
+ 3. config 설정에 들어가 아래의 항목을 No에서 yes로 바꿔주면 비밀번호를 입력 시 원격제어권을 가져 올 수가 있습니다.
 
-![enter image description here](https://user-images.githubusercontent.com/58260252/71954734-8daa0800-3229-11ea-9b49-9f8218de3072.png)
+ ![enter image description here](https://user-images.githubusercontent.com/58260252/71954734-8daa0800-3229-11ea-9b49-9f8218de3072.png)
 
-4. VS Code에서 F1키를 눌러 검색창을 띄우고 Remote-SSH:Connect to Host...를선택합니다.
-5. Configure SSH Hosts를 선택합니다.
-6. 파일을 업데이트 할 경로를 선택합니다.
-7. 들어간 config 페이지에 아래의 그림과 같은 양식으로 입력해 줍니다.
+ 4. VS Code에서 F1키를 눌러 검색창을 띄우고 Remote-SSH:Connect to Host...를선택합니다.
+ 5. Configure SSH Hosts를 선택합니다.
+ 6. 파일을 업데이트 할 경로를 선택합니다.
+ 7. 들어간 config 페이지에 아래의 그림과 같은 양식으로 입력해 줍니다.
 
-![enter image description here](https://user-images.githubusercontent.com/58260252/71954783-bf22d380-3229-11ea-985a-3d420b4cc7b0.png)
+ ![enter image description here](https://user-images.githubusercontent.com/58260252/71954783-bf22d380-3229-11ea-985a-3d420b4cc7b0.png)
 
-8. 원격 관리 준비 끝!
+ 8. 원격 관리 준비 끝!
 
 - Container Targets
 
-1. VS Code의 EXTENSIONS로 들어가 REMOTE-Containers를 다운 받습니다.
-2. VS Code 에서 F1를 눌러 검색창을 띄우고 Remote-Containers:Attach to Running Container...를 선택합니다.
-3. 원격제어할 콘테이너를 선택합니다.
-4. 원격 관리 준비 끝!
-
-# Git 
+ 1. VS Code의 EXTENSIONS로 들어가 REMOTE-Containers를 다운 받습니다.
+ 2. VS Code 에서 F1를 눌러 검색창을 띄우고 Remote-Containers:Attach to Running Container...를 선택합니다.
+ 3. 원격제어할 콘테이너를 선택합니다.
+ 4. 원격 관리 준비 끝!
