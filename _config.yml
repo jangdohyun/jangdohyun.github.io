@@ -17,8 +17,8 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "On step more"
-description: "Step by step for this servival"
+title: "You will never know until you try"
+description: "-실패가 있어야 성공도 있다-"
 base: ""
 url: "https://jangdohyun.github.io"  
 logo: # path of site logo, e.g. "/images/logo.png"
